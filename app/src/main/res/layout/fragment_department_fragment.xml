@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".department_fragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="57dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="IT"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/img_btn1"
+            android:layout_width="125dp"
+            android:layout_height="129dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/ripple_effect2"
+            android:src="@drawable/it"
+            android:text="year1"
+            android:elevation="20dp"
+            android:layout_margin="2dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="47dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="MECH"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="year1"
+            android:src="@drawable/mech"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="51dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="ECE"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="year1"
+            android:src="@drawable/ece"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="51dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="CSE"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="year1"
+            android:src="@drawable/cse"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="52dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="CIVIL"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="year1"
+            android:src="@drawable/civil"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="53dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="EEE"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="year1"
+            android:src="@drawable/eee"
+            android:maxHeight="2dp"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+
+    </GridLayout>
+
+</FrameLayout>

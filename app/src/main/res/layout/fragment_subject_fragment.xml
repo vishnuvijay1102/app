@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subject_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text=" AIR POLLUTION AND CONTROL ENGINEERING "
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text="WEB TECHNOLOGY "
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text="COMPUTER NETWORKS"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text="MICROPROCESSOR AND MICROCONTROLLER "
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text="ALGEBRA AND NUMBER THEORY "
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:text="SOFTWARE ENGINEERING"
+                android:layout_margin="5dp"
+                android:background="@drawable/ripple_effect1"
+                android:fontFamily="@font/montserrat_extrabold_italic"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

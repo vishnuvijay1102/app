@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".YearFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="37dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="First Year"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/img_btn1"
+            android:layout_width="125dp"
+            android:layout_height="129dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/ripple_effect2"
+            android:src="@drawable/btn_ico"
+            android:text="year1"
+            android:elevation="20dp"
+            android:layout_margin="2dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="32dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="Second Year"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="year1"
+            android:src="@drawable/btn_ico"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="36dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="Third Year"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+        <ImageButton
+            android:id="@+id/img_btn3"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="year1"
+            android:src="@drawable/btn_ico"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingLeft="33dp"
+            android:paddingBottom="13dp"
+            android:clickable="false"
+            android:text="Fourth Year"
+            android:fontFamily="@font/montserrat_extrabold_italic"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="125dp"
+            android:layout_height="130dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="year1"
+            android:src="@drawable/btn_ico"
+            android:background="@drawable/ripple_effect2"
+            android:layout_margin="2dp"/>
+
+    </GridLayout>
+
+</FrameLayout>
